@@ -6,14 +6,16 @@ public class Calculadora {
     double num2 = 3.2;
     double resultado = 0;
 switch (operador) {
-    case '+':
+case '-':
+resultado = num1 - num2;
+case '+':
     resultado = num1 + num2;
-        break;
-            default:
-                        System.out.println("Operador inválido");
-                return;
-            }
-            System.out.println("Resultado: " + resultado);
+break;
+default:
+System.out.println("Operador inválido");
+return;
+}
+System.out.println("Resultado: " + resultado);
     }
     }
 
