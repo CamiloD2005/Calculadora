@@ -10,6 +10,8 @@ case '-':
 resultado = num1 - num2;
 case '+':
 resultado = num1 + num2;
+case '*':
+resultado = num1 * num2;
 case '/':
 if (num2 == 0) {
 System.out.println("Error: División entre cero");
@@ -23,5 +25,6 @@ return;
 }
 System.out.println("Resultado: " + resultado);
     }
-    }
+}
 
+    
